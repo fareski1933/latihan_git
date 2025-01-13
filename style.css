@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background dan tampilan umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Formulir */
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Tabel */
+.tabel {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 800px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+table tr:hover td {
+    background-color: #f1f1f1;
+}
+
+table td[colspan='3'] {
+    text-align: center;
+    font-style: italic;
+}
